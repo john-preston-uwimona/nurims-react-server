@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fop version="1.0">
+  <base>/home/jp/SourceCode/nurims-react/server/config/docbook</base>
+  <font-base>/home/jp/SourceCode/nurims-react/server/config/docbook</font-base>
+  <default-page-settings height="11in" width="8.5in"/>
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        <font embed-url="./fonts/Symbola.ttf" kerning="yes">
+          <font-triplet name="Symbola" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="./fonts/itc-officina-sans-std-book.otf" kerning="yes">
+          <font-triplet name="ITC-Officiana-San-Standard-Book" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="./fonts/itc-officina-sans-std-book-italic.otf" kerning="yes">
+          <font-triplet name="ITC-Officiana-San-Standard-Book-Italic" style="italic" weight="normal"/>
+        </font>
+        <font embed-url="./fonts/itc-officina-sans-std-bold.otf" kerning="yes">
+          <font-triplet name="ITC-Officiana-San-Standard-Book-Bold" style="normal" weight="bold"/>
+        </font>
+        <font embed-url="./fonts/itc-officina-sans-std-bold-italic.otf" kerning="yes">
+          <font-triplet name="ITC-Officiana-San-Standard-Book-Bold-Italic" style="italic" weight="bold"/>
+        </font>
+        <font embed-url="./fonts/itc-officina-serif-std-book.otf" kerning="yes">
+          <font-triplet name="ITC-Officiana-Serif-Standard-Book" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="./fonts/itc-officina-serif-std-book-italic.otf" kerning="yes">
+          <font-triplet name="ITC-Officiana-Serif-Standard-Book-Italic" style="italic" weight="normal"/>
+        </font>
+        <font embed-url="./fonts/itc-officina-serif-std-bold.otf" kerning="yes">
+          <font-triplet name="ITC-Officiana-Serif-Standard-Book-Bold" style="normal" weight="bold"/>
+        </font>
+        <font embed-url="./fonts/itc-officina-serif-std-bold-italic.otf" kerning="yes">
+          <font-triplet name="ITC-Officiana-Serif-Standard-Book-Bold-Italic" style="italic" weight="bold"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>

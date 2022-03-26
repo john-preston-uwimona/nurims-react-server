@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "entry": "nurims.dosimeter.units",
+      "value": "msv"
+    },
+    {
+      "entry": "nurims.material.quantityunits",
+      "value": "bq,Bq|kbq,kBq|mbq,MBq|ci,Ci|mci,mCi|uci,µCi|g,gm|kg,kg"
+    },
+    {
+      "entry": "nurims.material.nuclides",
+      "value": "am241,Am-241|ba133,Ba-133|cd109,Cd-109|cs137,Cs-137|co57,Co-57|co60,Co-60|cm244,Cm-244|eu152,Eu-152|fe55,Fe-55|kr85,Kr-85|mixed_nuclides,Mixed Nuclides|mn54,Mn-54|natural_uranium,Natural Uranium|pm149,Pm-149|pu239,Pu-239|sr90,Sr-90|u233,U-233|u235,U-235|y88,Y-88|zn65,Zn-65"
+    },
+    {
+      "entry": "nurims.material.type",
+      "value": "controlled_item,Controlled Item|irradiated_samples,Irradiated Samples|sealed_radioactive_source,Sealed Radioactive Source|unsealed_radioactive_source,Unsealed Radioactive Source|nuclear_material,Nuclear Material"
+    },
+    {
+      "entry": "nurims.material.classification",
+      "value": "category-1,Category 1 - Extremely dangerous to the person|category-2,Category 2 - Very dangerous to the person|category-3,Category 3 - Dangerous to the person|category-4,Category 4 - Unlikely to be dangerous to the person|category-5,Category 5 - Most unlikely to be dangerous to the person"
+    },
+    {
+      "entry": "nurims.material.inventorystatus",
+      "value": "in_use,In Use|disused,DisUsed|waste,Waste|disposed,Disposed"
+    },
+    {
+      "entry": "nurims.material.physicalform",
+      "value": "na,Not Applicable|gas,Gas|liquid,Liquid|powder,Powder|solid,Solid"
+    },
+    {
+      "entry": "nurims.surveillancefrequency",
+      "value": "none,None|adhoc,When necessary or needed|weekly,Weekly|monthly,Monthly|quarterly,Quarterly|biannual,Biannual|annual,Annual"
+    },
+    {
+      "entry": "nurims.entity.assignedrole",
+      "value": "none,None|radiation_safety_officer,Radiation Safety/Protection Officer|training_officer,Training Officer|maintenance_officer,Maintenance Officer"
+    }
+  ]
+}

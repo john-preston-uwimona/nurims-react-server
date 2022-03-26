@@ -1,0 +1,81 @@
+{
+  "logger" : {
+    "logDirectory": "../logs",
+    "logFile": "log",
+    "dbPath": "log.db",
+    "fileNamePattern": "nurims-<DATE>.log",
+    "dateFormat": "YYYY.MM.DD",
+    "level": "trace",
+    "enableConsole": true,
+    "websocket": "nurimslog",
+    "timestampFormat": "YYYY-MM-DD HH:mm:ss.SSS",
+    "port": 8988,
+    "tail": 1000
+  },
+  "tracemalloc": {
+    "sleep": 600
+  },
+  "paths": {
+    "pdf":  {
+      "link": "pdf",
+      "path": "../public/pdf"
+    },
+    "downloads":  {
+      "link": "/dl",
+      "path": "../public/dl"
+    }
+  },
+  "users": {
+    "path": "users"
+  },
+  "markdown": {
+    "path": "./config/markdown"
+  },
+  "docbook": {
+    "path": "../config/docbook"
+  },
+  "server" : {
+    "websocket": "nurimsws",
+    "port": 5000,
+    "crt": "../config/keys/server.crt",
+    "key": "../config/keys/server.key"
+  },
+  "housekeeping": {
+    "interval": 60
+  },
+  "db" : {
+    "path": "../db/",
+    "init-sql": "init.sql",
+    "default-property-values-sql": "default-property-values.json",
+    "default-glossary-values-sql": "default-glossary-values.json",
+    "password": "sensoradmin.icens",
+    "host": "localhost",
+    "port": 5432,
+    "database": "sensors"
+  },
+  "postgresql" : {
+    "user": "sensoradmin",
+    "password": "sensoradmin.icens",
+    "host": "localhost",
+    "port": 5432,
+    "database": "sensors",
+    "database-sql": "db.sql"
+  },
+  "display_options" : {
+    "n": 300,
+    "sensors": {
+      "temperature": {
+        "min": 0,
+        "max": 60
+      },
+      "humidity": {
+        "min": 0,
+        "max": 100
+      },
+      "co2": {
+        "min": 1,
+        "max": 2000
+      }
+    }
+  }
+}

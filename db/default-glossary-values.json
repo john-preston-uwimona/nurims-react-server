@@ -1,0 +1,56 @@
+{
+  "entries": [
+    {
+      "entry": "nurims.material.type",
+      "value": "The type of a controlled material such as controlled nuclear item, irradiated samples, sealed radioactive source, unsealed radioactive source, nuclear material"
+    },
+    {
+      "entry": "nurims.material.id",
+      "value": "A unique identifier of maximum length 16 characters for the controlled material"
+    },
+    {
+      "entry": "nurims.material.classification",
+      "value": "Materials are classified in terms of their potential to cause deterministic health effects. <strong>Category 1</strong> materials are considered to be the most ‘dangerous’ because they can pose a very high risk to human health if not managed safely and securely. An exposure of only a few minutes to an unshielded <strong>Category 1</strong> source may be fatal. At the lower end of the categorization system, sources in <strong>Category 5</strong> are the least dangerous; however, even these sources could give rise to doses in excess of the dose limits if not properly controlled, and therefore need to be kept under appropriate regulatory control"
+    },
+    {
+      "entry": "nurims.material.registrationdate",
+      "value": "The date when the controlled material was commissioned into service i.e. 2008-03-01"
+    },
+    {
+      "entry": "nurims.description",
+      "value": "description"
+    },
+    {
+      "entry": "nurims.title",
+      "value": "Name"
+    },
+    {
+      "entry": "nurims.material.manufacturer",
+      "value": "manufacturer"
+    },
+    {
+      "entry": "nurims.material.inventorystatus",
+      "value": "Inventory status of material. <strong>In-use</strong> designates that the material is currently used in the work of the facility. <strong>Dis-used</strong> designates that the material is no longer used in the work of the facility. <strong>Waste</strong> designates that the material is no longer used at the facility and is awaiting disposal/repatriation. <strong>Disposal</strong> designates that the material has been disposed of. When the material is disposed or repatriated the record will contain the relevant authorisations and details to allow for traceability"
+    },
+    {
+      "entry": "nurims.material.physicalform",
+      "value": "Controlled materials physical form"
+    },
+    {
+      "entry": "nurims.material.storagelocation",
+      "value": "The location where the controlled material is stored"
+    },
+    {
+      "entry": "nurims.inventorysurveillancefrequency",
+      "value": "Inventory surveillance frequency"
+    },
+    {
+      "entry": "nurims.activitysurveillancefrequency",
+      "value": "Activity surveillance frequency"
+    },
+    {
+      "entry": "nurims.leaktestsurveillancefrequency",
+      "value": "Leak test surveillance frequency"
+    }
+  ]
+}

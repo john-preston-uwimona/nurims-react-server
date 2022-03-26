@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?><!DOCTYPE article [<!ENTITY version '5.0'><!ENTITY nbsp ' '><!ENTITY yes "<phrase role='unicode yes'>YES</phrase>"><!ENTITY no "<phrase role='unicode no'>NO</phrase>">]>
+<article xmlns='http://docbook.org/ns/docbook'
+         xmlns:xl='http://www.w3.org/1999/xlink'
+         version='5.0' xml:lang='en' class='specification' lang='en'>
+  <info>
+    <publisher>__PUBLISHER__</publisher>
+    <address>__ADDRESS__</address>
+    <address1>__ADDRESS1__</address1>
+    <date>__REPORT_DATE__</date>
+    <title>Control Materials List</title>
+    <productname>Nuclear &#38; Radiological Integrated Management System (NURIMS).</productname>
+  </info>
+  __CONTROLLED_MATERIAL_TABLES__
+</article>
